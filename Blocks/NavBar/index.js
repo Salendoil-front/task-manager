@@ -82,7 +82,7 @@ export default function NavBar() {
                 <Link href='tasks' passHref><NavbarItem>Задачи</NavbarItem></Link>
                 <Link href='teams' passHref><NavbarItem>Команда</NavbarItem></Link>
                 <Link href='settings' passHref><NavbarItem>Настройки</NavbarItem></Link>
-                <Link href='Logout' passHref><NavbarItem>Выйти</NavbarItem></Link>
+                <Link href='logout' passHref><NavbarItem>Выйти</NavbarItem></Link>
             </NavbarItemMenu>
         </NavbarWrapper>
     )
