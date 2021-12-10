@@ -79,6 +79,7 @@ export default function NavBar() {
         <NavbarWrapper>
             <NavbarItemMenu>
                 <Link href='/' passHref><NavbarItem>Главная</NavbarItem></Link>
+                <Link href='/chat' passHref><NavbarItem>Чат</NavbarItem></Link>
                 <Link href='tasks' passHref><NavbarItem>Задачи</NavbarItem></Link>
                 <Link href='teams' passHref><NavbarItem>Команда</NavbarItem></Link>
                 <Link href='settings' passHref><NavbarItem>Настройки</NavbarItem></Link>
